@@ -1,0 +1,16 @@
+#navbar{
+     display: flex;
+     margin: 2rem;
+     margin-left: 39.5rem;
+ }
+
+#navbar ul{
+    display: flex;
+    list-style: none;
+}
+
+#navbar ul li{
+    padding: .75rem;
+    border: 1px solid silver;
+    border-radius: 3px;
+}

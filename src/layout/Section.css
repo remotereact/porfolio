@@ -1,0 +1,16 @@
+.main-area{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    padding-top: 5rem;
+    padding-right: .5rem;
+    padding-left: .5rem;
+}
+
+#aside{
+    height: 90vh;
+}
+
+#section{
+    border: 1px solid gray;
+    font-size: 20px;
+}

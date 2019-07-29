@@ -1,0 +1,84 @@
+.header-holder{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons{
+    justify-self: start;
+    margin: 1rem;
+    margin-left: 4rem;
+}
+
+
+.icon1{
+    width: 25px;
+    color: #ff5a6d;
+}
+.icon2{
+    width: 25px;
+    color: rebeccapurple;
+}
+.icon3{
+    width: 25px;
+    color: #5e90cd;
+}
+.icon4{
+    width: 25px;
+    color: #534cc2;
+}
+
+
+.search{
+    display: flex;
+    justify-self: end;
+    width:100% ;
+    margin: 1rem;
+    margin-right: 3rem;
+}
+
+.searchbar{
+    width:100% ;
+    border: 1px solid #b7b7b7;
+    border-right: none;
+    padding: 1rem;
+    height: 20px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #9DBFAF;
+}
+
+.searchButton{
+    width: 40px;
+    height: 34px;
+    border: 1px solid #00B4CC;
+    background: #00B4CC;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+
+
+
+
+/*utilities*/
+.m{
+    margin: .5rem;
+}
+.m-r{
+    margin-right: .7rem;
+}
+.m-l{
+    margin-left: .5rem;
+}
+.m-t{
+    margin-top: .5rem;
+}
+.m-b{
+    margin-bottom: .5rem;
+}
