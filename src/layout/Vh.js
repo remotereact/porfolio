@@ -84,8 +84,8 @@ class vh extends Component {
                                         </div>
 
                                         <div className='m-b-item'>
-                                            <a href="">repo</a>
-                                            <a href="">link</a>
+                                            <a href="https://github.com/remotereact/auto-grid-images">repo</a>
+                                            <a href="https://determined-gates-a6f62b.netlify.com/">link</a>
                                         </div>
                                     </div>
                                 </div>
