@@ -60,8 +60,8 @@ class vh extends Component {
                                         </div>
 
                                         <div  className='m-b-item'>
-                                            <a  href="">repo</a>
-                                            <a href="">link</a>
+                                            <a  href="https://github.com/remotereact/animals">repo</a>
+                                            <a href="https://brave-bhabha-a65268.netlify.com/">link</a>
                                         </div>
 
                                     </div>
