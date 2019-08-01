@@ -10,12 +10,10 @@ class vh extends Component {
 
 
 
+
     render() {
         return (
             <div id="vh">
-                <div className='container'>
-                    <div className='card-container'>
-
                         <Spring
                             from={{opacity: 0}}
                             to={{opacity: 1}}
@@ -25,16 +23,15 @@ class vh extends Component {
                                 <div style={props}>
 
                                     <div className='test'>
-                                        <div className='item1 m-b-item'>
-                                            <img src= {require ("../images/youtube.png")} alt="youtube"/>
-                                            <p className='project-description'>>> written by react/redux</p>
-                                        </div>
+                                        <h2>Youtube</h2>
 
-
+                                        <img src= {require ("../images/youtube.png")} alt="youtube"/>
                                         <div className='m-b-item'>
                                             <a  href="https://github.com/remotereact/youtube">repo</a>
                                             <a href="https://serene-ramanujan-c85fbd.netlify.com/">link</a>
                                         </div>
+                                        <p className='project-description'>Lorem ipsum dolor sit amet.C7C9D3
+                                            Lorem ipsum dolor sit amet.C7C9D3Lorem ipsum dolor sit amet.C7C9D3</p>
                                     </div>
 
                                 </div>
@@ -54,16 +51,14 @@ class vh extends Component {
                                 <div style={props}>
 
                                     <div className='test'>
-                                        <div className='item2 m-b-item'>
+                                        <h2>Animals</h2>
                                             <img src= {require ("../images/unsplash.jpg")} alt="unsplash"/>
-                                            <p className='project-description'>>> written by react/redux</p>
-                                        </div>
-
                                         <div  className='m-b-item'>
                                             <a  href="https://github.com/remotereact/animals">repo</a>
                                             <a href="https://brave-bhabha-a65268.netlify.com/">link</a>
                                         </div>
-
+                                        <p className='project-description'>Lorem ipsum dolor sit amet.C7C9D3
+                                            Lorem ipsum dolor sit amet.C7C9D3Lorem ipsum dolor sit amet.C7C9D3</p>
                                     </div>
                                 </div>
                             )}
@@ -78,15 +73,15 @@ class vh extends Component {
                             {props => (
                                 <div style={props}>
                                     <div className='test'>
-                                        <div className='item3 m-b-item'>
+                                        <h2>Grid-images</h2>
                                             <img src= {require ("../images/unsplash1.jpg")} alt="unsplash1"/>
-                                            <p className='project-description'>>> written by react/redux</p>
-                                        </div>
-
                                         <div className='m-b-item'>
                                             <a href="https://github.com/remotereact/auto-grid-images">repo</a>
                                             <a href="https://determined-gates-a6f62b.netlify.com/">link</a>
                                         </div>
+                                        <p className='project-description'>Lorem ipsum dolor sit amet.C7C9D
+                                            Lorem ipsum dolor sit amet.C7C9D3
+                                            Lorem ipsum dolor sit amet.C7C9D33</p>
                                     </div>
                                 </div>
                             )}
@@ -103,20 +98,18 @@ class vh extends Component {
                             {props => (
                                 <div style={props}>
                                     <div className='test'>
-                                        <div className='item4 m-b-item'>
-                                            <img src= {require ("../images/book.jpg")} alt="book"/>
-                                            <p className='project-description'>>> written by react/redux</p>
-                                        </div>
+                                        <h2>Twitch</h2>
 
-
-
+                                            <img src= {require ("../images/twitch.png")} alt="twitch"/>
 
                                         <div className='m-b-item'>
                                             <a href="">repo</a>
                                             <a href="">link</a>
                                         </div>
 
-
+                                        <p className='project-description'>Lorem ipsum dolor sit amet.C7C9D3
+                                            Lorem ipsum dolor sit amet.C7C9D3
+                                            Lorem ipsum dolor sit amet.C7C9D3</p>
 
                                     </div>
                                 </div>
@@ -135,25 +128,22 @@ class vh extends Component {
                             {props => (
                                 <div style={props}>
                                     <div className='test'>
-                                        <div className='item5 m-b-item'>
-                                            <img src= {require ("../images/twitch.png")} alt="twitch"/>
-                                            <p className='project-description'>>> written by react/redux</p>
-                                        </div>
+                                        <h2>Books</h2>
+                                            <img src= {require ("../images/book.jpg")} alt="book"/>
 
                                         <div className=' m-b-item'>
                                             <a href="">repo</a>
                                             <a href="">link</a>
                                         </div>
+                                        <p className='project-description'>Lorem ipsum dolor sit amet.C7C9D3
+                                            Lorem ipsum dolor sit amet.C7C9D3
+                                            Lorem ipsum dolor sit amet.C7C9D3</p>
                                     </div>
                                 </div>
                             )}
                         </Spring>
-                    </div>
-
                 </div>
 
-
-            </div>
         );
     };
 

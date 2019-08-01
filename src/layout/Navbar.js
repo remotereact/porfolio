@@ -4,7 +4,6 @@ import './Navbar.scss';
 
 const Navbar = () => {
     return(
-        <div className="nav-container">
 
                     <div className='navigation'>
                         <input type="checkbox" className='navigation__checkbox' id='navi-toggle'/>
@@ -29,7 +28,6 @@ const Navbar = () => {
                             </ul>
                         </nav>
                     </div>
-        </div>
     )
 };
 export default Navbar;

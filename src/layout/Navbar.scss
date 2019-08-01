@@ -4,12 +4,12 @@
     }
 
     &__button {
-        background-color: #f0f0f0;
+        background-color: #131418;
         height: 2.2rem;
         width: 3.2rem;
         position: fixed;
-        top: 2.5rem;
-        right: 2rem;
+        top: 1.2rem;
+        right:  1.2rem;
         border-radius: 10%;
         z-index: 2000;
         box-shadow: 0 1rem 3rem rgba(black, .1);
@@ -23,9 +23,9 @@
         width: 3rem;
         border-radius: 50%;
         position: fixed;
-        top: 2.5rem;
-        right: 2rem;
-        background-color: #d3d3d3;
+        top: 1.2rem;
+        right:  1.2rem;
+        background-color: #131418;
         z-index: 1000;
         transition: transform .8s cubic-bezier(0.86, 0, 0.07, 1);
 
@@ -38,7 +38,7 @@
         top: 0;
         left: 0;
         z-index: 1500;
-        background-color: #d3d3d3;
+        background-color: #2D303A;
         opacity: 0;
         width: 0;
         transition: all .8s cubic-bezier(0.68, -0.55, 0, 1);
@@ -62,15 +62,16 @@
         &:link,
         &:visited {
             display: inline-block;
-            font-size: 2rem;
+            font-size: 3rem;
             font-weight: 300;
-            padding: 1rem 2rem;
+            padding: .1rem 2rem;
             color: white;
             text-decoration: none;
-            text-transform: uppercase;
             background-image: linear-gradient(120deg, transparent 0%, transparent 50%, #9b9b9b 50%);
             background-size: 220%;
             transition: all .4s;
+            font-family: 'Josefin Sans', sans-serif;
+            line-height: 1.1;
 
             span {
                 margin-right: 1.5rem;

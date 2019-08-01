@@ -5,10 +5,52 @@
 }
 
 body{
-    background-color: #ededed;
+    background-color: #131418;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+a{
+    text-decoration: none;
 }
 
-.container{
-    max-width: 1100px;
-    margin: auto;
+.grid-areas{
+    display: grid;
+    grid-template-areas:
+    'sidebar header header'
+    'sidebar section section'
+    'sidebar vh vh '
+    'sidebar footer footer '
+;
+}
+
+#header{
+    grid-area:header;
+}
+
+#sidebar{
+    grid-area:sidebar;
+
+}
+.navigation{
+    grid-area:navigation;
+}
+
+    * {
+        margin: 0;
+        padding: 0;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+#vh{
+    grid-area:vh;
+}
+
+
+#section{
+     grid-area:section;
+ }
+
+#footer{
+    grid-area:footer;
 }

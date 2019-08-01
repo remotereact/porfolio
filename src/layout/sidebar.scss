@@ -1,0 +1,47 @@
+#sidebar{
+    background-color: #1E1F26;
+    height: 100vh;
+    z-index: 11;
+    width: 188px;
+    min-height: 100%;
+}
+
+#sidebar img{
+    width: 130px;
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+
+
+#root {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.transitions-item {
+  top: 6.5rem;
+  left:4.7rem;
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size:1rem;
+  font-weight: 500;
+  will-change: transform, opacity, height;
+  white-space: nowrap;
+  cursor: pointer;
+  line-height: 40px;
+}
+
+

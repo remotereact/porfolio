@@ -1,0 +1,23 @@
+#footer{
+    background-color: black;
+    height: 30vh;
+    margin-top: 5rem;
+}
+.footer-con{
+    margin: 3rem;
+    display: flex;
+    flex-direction:  column;
+}
+
+#footer a{
+    color: #9ca0b1;
+    padding: .5rem;
+}
+
+#footer strong {
+    color: #fbfbfb;
+    margin: 1rem;
+}
+#footer .items{
+    margin: .2rem;
+}
