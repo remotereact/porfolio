@@ -6,11 +6,20 @@
     min-height: 100%;
 }
 
+@media(max-width: 500px) {
+  #sidebar{
+    display: none;
+  }
+}
+
+
+
 #sidebar img{
     width: 130px;
     margin-top: 1rem;
     margin-left: 2rem;
 }
+
 
 
 #root {
